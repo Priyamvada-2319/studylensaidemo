@@ -3,6 +3,3 @@ streamlit>=1.40,<2
 openai>=1.70,<3
 pandas>=2.2,<3
 plotly>=5.24,<7
-except Exception as e:
-    st.error("The learning report could not be generated.")
-    st.exception(e)
